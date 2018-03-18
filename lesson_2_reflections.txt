@@ -1,2 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
 it creates a .git folder in which all the meta data are stored and it tracks all the files in the directry./ I need to do it to start tracking my project and the hostory of the files in the directory.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+the staging area is the intermediate step between those 2. It isnot a directory yet it's not a repository. It's important because  it allows for choosing whatever changes one needs to commit before actually commiting them.
+
+How can you use the staging area to make sure you have one commit per logical change?
+- you add only the files that are affected by this one logical change to the stagin area. you could run git diff to compare the changes between the versions in the staging area and the vesions in the directory. or git diff --staged to compare between those in the staging area and those in the commits. after that you just commit the chagnges when you are completely sure.
