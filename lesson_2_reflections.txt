@@ -6,3 +6,15 @@ the staging area is the intermediate step between those 2. It isnot a directory 
 
 How can you use the staging area to make sure you have one commit per logical change?
 - you add only the files that are affected by this one logical change to the stagin area. you could run git diff to compare the changes between the versions in the staging area and the vesions in the directory. or git diff --staged to compare between those in the staging area and those in the commits. after that you just commit the chagnges when you are completely sure.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+when I need to experiment with some code that might mess the whole program up or when I want to make another version of the app starting from an earlier commit
+
+How do the diagrams help you visualize the branch structure?
+- It shows the commits in the branches in a simple visual style.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+the result is a sequence of commits from both branches ordered by timestamp. also git decides what commits to keepor remove based on whether it was in the original file then someonw decided to delete it or whether it was added after that.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- pros: time efficient. cons: git isnt smart enough to know which version Id like to keep
