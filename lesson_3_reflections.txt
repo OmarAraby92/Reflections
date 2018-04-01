@@ -21,3 +21,8 @@ How would you collaborate without using Git or GitHub? What would be easier, and
   - without github I'll need to send copies of the project via e-mail every time I make a change:
   	-it'll be easier because I won't have to learn how to use github
   	-much more difficult adn complicated because I wont be able to merge my work with the collaboator woks safely and in an organized fashion
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+  -When on github and I want my master branch which is the ma branch tht people look at to be neat.
+  -When I want to do some wild experimintation with the code that might damage the project
+  -when I want to make a change that i'm not sure whether it'll be implemented or not
